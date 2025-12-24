@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.counter {
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    background: linear-gradient(to bottom,
+            #aed9ff,
+            #d8e7ef);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0px rgba(142, 140, 140, 0.2);
+}
+
+.btn-count {
+    width: 100px;
+    height: 50px;
+    display: flex-box;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: large;
+    background: rgb(204, 252, 255);
+
+}
+button:hover {
+  background:  rgb(212, 239, 241);
+transition: all 0.25s ease-out;
+
+
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    transition: all 0.25s ease-out;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}

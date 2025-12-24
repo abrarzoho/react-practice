@@ -1,0 +1,40 @@
+
+
+.list-key{
+    width: 500px;
+    height: 300px;
+   border: 2px solid black;
+    margin: 20px;
+    background: rgb(230, 106, 247);
+    box-shadow: 10px 10px 10px 0px rgba(142, 140, 140, 0.2);
+    overflow: hidden;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0px rgba(142, 140, 140, 0.2);
+    width: 300px;
+    height: 50px;
+    display: flex-box;
+    align-items: center;
+   text-align: center;
+   
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   background-color: rgb(125, 193, 253);
+}
+li:hover{
+    background-color: rgb(204, 252, 255);
+}
+

@@ -1,0 +1,19 @@
+.inner-card{
+border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  padding: 1em;
+  margin: 5em;
+  background: linear-gradient(
+  to left,
+  #e683e699,
+  rgba(140, 220, 228, 0.6)
+);
+
+}
+h1{
+    font-size: 1.2rem;
+
+}
+p{
+font-size: 1.2rem;}
