@@ -1,0 +1,36 @@
+.card{
+    border: 2px solid black;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    background: rgb(230, 106, 247);
+    box-shadow: 10px 10px 10px 0px rgba(142, 140, 140, 0.2);
+    overflow: hidden;
+    border-radius: 10px;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+   width: 150px;
+   height: 50px;
+   text-align: center;
+   display: flex-box;
+   align-items: center;
+   justify-content: center;
+   margin-left: 35%;
+   margin-top: 20px;
+   border-radius: 10px;
+    font-size: large;
+   background: rgb(204, 252, 255);
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   border: none;
+}
+button:hover{
+    border: 2px solid black;
+    transition: all 1s ease-in;
+    background-color: rgb(174, 227, 231);
+}
